@@ -314,7 +314,7 @@ function Contact() {
         <div className="relative overflow-hidden rounded-[2rem] bg-fg px-6 py-16 text-bg sm:px-16 sm:py-20">
           <div aria-hidden className="pointer-events-none absolute -right-20 -bottom-20 h-80 w-80 rounded-full bg-accent/30 blur-3xl" />
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-accent dark:text-[#a8682f]">Contact</p>
-          <h2 className="mt-4 max-w-2xl font-serif text-4xl leading-tight sm:text-6xl">Let's talk integration, presales or building great teams.</h2>
+          <h2 className="mt-4 max-w-2xl font-serif text-4xl leading-tight sm:text-6xl">Let's talk challenges, technology, business, presales or building great teams.</h2>
           <p className="relative mt-6 max-w-xl text-bg/70">Book a 30-minute call at a time that suits you — just add a short agenda so we can make the most of it.</p>
           <div className="relative mt-8 flex flex-wrap gap-3">
             <a href={profile.booking} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-medium text-white transition-transform hover:-translate-y-0.5 dark:bg-[#a8682f]">
