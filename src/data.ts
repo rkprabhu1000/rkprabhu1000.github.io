@@ -122,7 +122,7 @@ export const experience: Role[] = [
 export const expertise = [
   {
     title: 'Solutions & Integration Architecture',
-    body: 'API-led and event-driven integration across cloud, SaaS, ERP, CRM and legacy estates. iPaaS, CDN, cloud and edge.',
+    body: 'Integration strategy, solution design and architecture reviews that connect cloud, SaaS, ERP and legacy systems — turning disconnected landscapes into reliable, scalable platforms the business can grow on.',
   },
   {
     title: 'Presales & Go-to-Market',
@@ -138,7 +138,7 @@ export const expertise = [
   },
   {
     title: 'Technology Transformation',
-    body: 'Broad, hands-on experience across the stack — CDN and web performance at Akamai and Limelight, CRM on HubSpot and Salesforce, integration on iPaaS, and now AI — aligning technology with how the business grows.',
+    body: 'Broad, hands-on experience across the stack — CDN and web performance at Akamai and Limelight, CRM on HubSpot, integration on iPaaS, and now AI — aligning technology with how the business grows.',
   },
   {
     title: 'Stakeholder & Programme Management',
