@@ -8,21 +8,21 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/rk-prabhu/',
   headline: 'I help enterprises connect their systems, their teams and their strategy.',
   intro:
-    'Technology & operations leader with 12+ years across SaaS, CRM, iPaaS, CDN and cloud — designing enterprise integration architectures, building high-performing presales teams and turning digital transformation goals into measurable business outcomes.',
+    'Technology, sales & operations leader with 13+ years across SaaS, CRM, iPaaS, CDN and cloud — designing enterprise integration architectures, leading high-performing presales teams and turning digital transformation goals into measurable business outcomes.',
   about: [
-    'I started as a software engineer at Infosys, moved into solutions architecture for Fortune 500 clients at Akamai and Limelight Networks, and spent three years at HubSpot leading a team of solutions engineers across the Nordics and Benelux.',
-    'At Invise I built and ran a 10-person CRM strategy and architecture team with P&L responsibility. Today at Frends I work with CIOs and enterprise architects on integration strategy — designing API-led and event-driven architectures across cloud, SaaS, ERP, CRM and legacy systems.',
+    'I started as a software engineer at Infosys, moved into solutions architecture for Fortune 500 clients at Akamai and Limelight Networks, and spent three years at HubSpot as team lead for solutions engineers across the Nordics and Benelux — setting direction, coaching and raising the bar for the team while carrying my own quota.',
+    'At Invise I built and led a 10-person CRM strategy and architecture team with P&L responsibility. Today at Frends I work with CIOs and enterprise architects on integration strategy — designing API-led, event-driven and AI/MCP-led architectures across cloud, SaaS, ERP, CRM and legacy systems.',
     'Across every role, the thread is the same: align technology with how the business actually grows, build the operating frameworks that let teams deliver, and use AI and automation where they create real leverage.',
   ],
 }
 
 export const stats = [
-  { value: '12+', label: 'Years in enterprise technology' },
+  { value: '13+', label: 'Years in enterprise technology' },
   { value: '€1M+', label: 'ARR growth delivered' },
-  { value: '25%', label: 'Faster sales cycles' },
-  { value: '50%', label: 'Higher delivery efficiency' },
-  { value: '40%', label: 'Faster SE onboarding' },
   { value: '20+', label: 'Fortune 500 clients architected for' },
+  { value: '10', label: 'Person team built and led' },
+  { value: '3', label: 'Continents of enterprise customers' },
+  { value: '8', label: "Awards, incl. President's Club" },
 ]
 
 export type Role = {
@@ -44,10 +44,11 @@ export const experience: Role[] = [
     points: [
       'Lead solution architecture in enterprise sales cycles, advising CIOs and enterprise architects on integration strategy and platform adoption.',
       'Design scalable API-led and event-driven integration architectures across cloud, SaaS, ERP, CRM and legacy ecosystems.',
+      'Shape AI- and MCP-led integration solutions — exposing enterprise processes as tools that AI agents can call securely, and showing customers how to put AI to work on real business workflows.',
       'Translate digital transformation goals into integration blueprints, technical demos and proof-of-value solutions.',
       'Support go-to-market growth through partner enablement, technical advocacy and product feedback from customer engagements.',
     ],
-    skills: ['Integration architecture', 'iPaaS', 'API-led design', 'Presales'],
+    skills: ['Integration architecture', 'iPaaS', 'AI & MCP', 'API-led design', 'Presales'],
   },
   {
     company: 'Invise',
@@ -56,7 +57,8 @@ export const experience: Role[] = [
     period: 'Aug 2024 — Feb 2026',
     earlier: 'Principal Solutions Engineer',
     points: [
-      'Built and scaled a 10-member CRM strategy and architecture team, improving delivery efficiency by 50%.',
+      'Built and scaled a 10-member CRM strategy and architecture team, significantly improving delivery efficiency.',
+      'Led the team day to day — hiring, coaching and career development, setting clear goals and growing future leaders through mentorship and succession planning.',
       'Managed budget, P&L oversight and cost optimisation with executive leadership.',
       'Implemented AI-driven estimation and resource planning, reducing delivery delays and lifting customer satisfaction.',
       'Standardised operational KPIs across CSAT, utilisation and delivery timelines, reducing escalations.',
@@ -70,12 +72,12 @@ export const experience: Role[] = [
     period: 'Jul 2021 — Jul 2024',
     earlier: 'Senior Solutions Engineer II, Senior Solutions Engineer',
     points: [
-      'Led a team of 7 solutions engineers while carrying a quota — full individual attainment and top regional performance in Nordilux.',
+      'Team lead for 7 solutions engineers — guiding deal strategy, coaching and sharing best practice — while carrying a full individual quota and finishing as a top regional performer in Nordilux.',
       'Secured enterprise deals by aligning CRM architecture with customer growth strategies.',
       'Designed AI-driven CRM automation workflows that improved engagement and pipeline conversion.',
-      'Built enablement programmes that cut sales engineer onboarding time by 40%.',
+      'Built enablement programmes that got new sales engineers productive much faster.',
     ],
-    skills: ['SaaS sales engineering', 'CRM architecture', 'Enablement', 'Team leadership'],
+    skills: ['SaaS sales engineering', 'CRM architecture', 'Enablement', 'Team lead'],
   },
   {
     company: 'Limelight Networks',
@@ -83,7 +85,7 @@ export const experience: Role[] = [
     title: 'Solutions Engineer',
     period: 'May 2019 — Aug 2020',
     points: [
-      'Supported enterprise streaming and CDN clients across APAC with 100% quota attainment.',
+      'Supported enterprise streaming and CDN clients across APAC, consistently meeting quota.',
       'Developed analytics models for capacity planning and performance optimisation.',
       'Partnered with product teams to launch network optimisation features for enterprise deployments.',
     ],
@@ -135,8 +137,8 @@ export const expertise = [
     body: 'Bringing AI into real workflows — estimation, resource planning, CRM automation — and analytics-driven decision-making.',
   },
   {
-    title: 'CRM Transformation',
-    body: 'CRM strategy and architecture on HubSpot and Salesforce, aligning customer processes with how the business grows.',
+    title: 'Technology Transformation',
+    body: 'Broad, hands-on experience across the stack — CDN and web performance at Akamai and Limelight, CRM on HubSpot and Salesforce, integration on iPaaS, and now AI — aligning technology with how the business grows.',
   },
   {
     title: 'Stakeholder & Programme Management',
@@ -144,7 +146,7 @@ export const expertise = [
   },
 ]
 
-export const tools = ['Frends', 'HubSpot', 'Salesforce', 'Akamai', 'AWS', 'Jira', 'Confluence', 'Productive', 'Python', 'Bash']
+export const tools = ['Frends', 'HubSpot', 'Salesforce', 'Akamai', 'AWS', 'Claude', 'Jira', 'Confluence', 'Productive']
 
 export const awards = [
   { year: '2024', title: "President's Club Winner", detail: 'Top performer SE, Nordilux FY 2023 — HubSpot' },
