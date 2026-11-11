@@ -8,7 +8,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/rk-prabhu/',
   headline: 'I help enterprises connect their systems, their teams and their strategy.',
   intro:
-    'Technology, sales & operations leader with 13+ years across SaaS, CRM, iPaaS, CDN and cloud — designing enterprise integration architectures, leading high-performing presales teams and turning digital transformation goals into measurable business outcomes.',
+    'Technology, sales & operations leader with 13+ years across SaaS, CRM, iPaaS, CDN and cloud — designing enterprise architectures, leading high-performing presales teams and turning digital transformation goals into measurable business outcomes.',
   about: [
     'I started as a software engineer at Infosys, moved into solutions architecture for Fortune 500 clients at Akamai and Limelight Networks, and spent three years at HubSpot as team lead for solutions engineers across the Nordics and Benelux — setting direction, coaching and raising the bar for the team while carrying my own quota.',
     'At Invise I built and led a 10-person CRM strategy and architecture team with P&L responsibility. Today at Frends I work with CIOs and enterprise architects on integration strategy — designing API-led, event-driven and AI/MCP-led architectures across cloud, SaaS, ERP, CRM and legacy systems.',
