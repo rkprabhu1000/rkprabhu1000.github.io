@@ -1,10 +1,11 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import { motion, useReducedMotion } from 'motion/react'
 import { ArrowUpRight, Award, GraduationCap, MapPin, Menu, Moon, Sun, X } from 'lucide-react'
-import { awards, education, experience, expertise, profile, stats, tools } from './data'
+import { awards, education, experience, expertise, principles, profile, stats, tools } from './data'
 
 const nav = [
   { id: 'about', label: 'About' },
+  { id: 'principles', label: 'Principles' },
   { id: 'experience', label: 'Experience' },
   { id: 'expertise', label: 'Expertise' },
   { id: 'recognition', label: 'Recognition' },
@@ -168,6 +169,30 @@ function About() {
   )
 }
 
+function Principles() {
+  return (
+    <section id="principles" className="bg-fg py-24 text-bg sm:py-32">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <Reveal className="mb-14">
+          <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-accent dark:text-[#a8682f]">Guiding principles</p>
+          <h2 className="max-w-2xl font-serif text-4xl leading-tight sm:text-5xl">How I lead, and how I work.</h2>
+        </Reveal>
+        <ol className="grid gap-x-16 gap-y-12 md:grid-cols-2">
+          {principles.map((p, i) => (
+            <Reveal key={p.title} delay={(i % 2) * 0.08}>
+              <li className="border-t border-bg/15 pt-6">
+                <span className="font-serif text-5xl text-accent dark:text-[#a8682f]">{String(i + 1).padStart(2, '0')}</span>
+                <h3 className="mt-4 font-serif text-3xl leading-snug">{p.title}</h3>
+                <p className="mt-3 leading-relaxed text-bg/70">{p.body}</p>
+              </li>
+            </Reveal>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )
+}
+
 function Experience() {
   return (
     <section id="experience" className="bg-bg-alt py-24 sm:py-32">
@@ -288,7 +313,7 @@ function Contact() {
       <Reveal>
         <div className="relative overflow-hidden rounded-[2rem] bg-fg px-6 py-16 text-bg sm:px-16 sm:py-20">
           <div aria-hidden className="pointer-events-none absolute -right-20 -bottom-20 h-80 w-80 rounded-full bg-accent/30 blur-3xl" />
-          <p className="text-xs font-medium uppercase tracking-[0.2em] text-accent">Contact</p>
+          <p className="text-xs font-medium uppercase tracking-[0.2em] text-accent dark:text-[#a8682f]">Contact</p>
           <h2 className="mt-4 max-w-2xl font-serif text-4xl leading-tight sm:text-6xl">Let's talk integration, presales or building great teams.</h2>
           <div className="relative mt-10 flex flex-wrap gap-3">
             <a href={profile.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-bg px-5 py-3 text-sm font-medium text-fg transition-transform hover:-translate-y-0.5">
@@ -309,6 +334,7 @@ export default function App() {
         <Hero />
         <Stats />
         <About />
+        <Principles />
         <Experience />
         <Expertise />
         <Recognition />
