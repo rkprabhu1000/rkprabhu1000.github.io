@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import { motion, useReducedMotion } from 'motion/react'
-import { ArrowUpRight, Award, GraduationCap, MapPin, Menu, Moon, Sun, X } from 'lucide-react'
+import { ArrowUpRight, Award, CalendarDays, GraduationCap, MapPin, Menu, Moon, Sun, X } from 'lucide-react'
 import { awards, education, experience, expertise, principles, profile, stats, tools } from './data'
 
 const nav = [
@@ -121,8 +121,8 @@ function Hero() {
               <a href={profile.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-fg px-5 py-3 text-sm font-medium text-bg transition-transform hover:-translate-y-0.5">
                 <LinkedInIcon className="h-4 w-4" /> Connect on LinkedIn
               </a>
-              <a href="#contact" className="inline-flex items-center gap-2 rounded-full border border-line px-5 py-3 text-sm font-medium transition-colors hover:border-accent hover:text-accent">
-                Get in touch <ArrowUpRight size={16} />
+              <a href="#book" className="inline-flex items-center gap-2 rounded-full border border-line px-5 py-3 text-sm font-medium transition-colors hover:border-accent hover:text-accent">
+                <CalendarDays size={16} /> Book a time
               </a>
               <span className="inline-flex items-center gap-1.5 px-2 text-sm text-muted"><MapPin size={15} /> {profile.location}</span>
             </div>
@@ -315,12 +315,29 @@ function Contact() {
           <div aria-hidden className="pointer-events-none absolute -right-20 -bottom-20 h-80 w-80 rounded-full bg-accent/30 blur-3xl" />
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-accent dark:text-[#a8682f]">Contact</p>
           <h2 className="mt-4 max-w-2xl font-serif text-4xl leading-tight sm:text-6xl">Let's talk integration, presales or building great teams.</h2>
-          <div className="relative mt-10 flex flex-wrap gap-3">
-            <a href={profile.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-bg px-5 py-3 text-sm font-medium text-fg transition-transform hover:-translate-y-0.5">
+          <p className="relative mt-6 max-w-xl text-bg/70">Book a 30-minute call at a time that suits you — just add a short agenda so we can make the most of it.</p>
+          <div className="relative mt-8 flex flex-wrap gap-3">
+            <a href={profile.booking} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-medium text-white transition-transform hover:-translate-y-0.5 dark:bg-[#a8682f]">
+              <CalendarDays size={16} /> Book a 30-min call
+            </a>
+            <a href={profile.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-bg/25 px-5 py-3 text-sm font-medium transition-colors hover:border-accent hover:text-accent">
               <LinkedInIcon className="h-4 w-4" /> Connect on LinkedIn <ArrowUpRight size={16} />
             </a>
           </div>
         </div>
+      </Reveal>
+      <Reveal className="mt-8">
+        <div id="book" className="overflow-hidden rounded-[2rem] border border-line bg-white">
+          <iframe
+            src={profile.bookingEmbed}
+            title={`Book a call with ${profile.name}`}
+            loading="lazy"
+            className="block h-[640px] w-full border-0"
+          />
+        </div>
+        <p className="mt-3 text-center text-xs text-muted">
+          Calendar not loading? <a href={profile.booking} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-accent">Open the booking page</a>.
+        </p>
       </Reveal>
     </section>
   )
