@@ -121,24 +121,24 @@ export const experience: Role[] = [
 
 export const expertise = [
   {
-    title: 'Solutions & Integration Architecture',
-    body: 'Integration strategy, solution design and architecture reviews that connect cloud, SaaS, ERP and legacy systems — turning disconnected landscapes into reliable, scalable platforms the business can grow on.',
+    title: 'Solutions & Architecture Design',
+    body: 'Solution design, enterprise architecture and architecture reviews that connect cloud, SaaS, ERP and legacy systems — turning disconnected landscapes into reliable, scalable platforms the business can grow on.',
   },
   {
     title: 'Presales & Go-to-Market',
-    body: 'Enterprise account strategy, technical discovery, demos and proof-of-value, partner enablement and strategic partnerships.',
+    body: 'Enterprise account strategy, technical discovery, demos and proof-of-value, partner enablement and strategic partnerships — and working with marketing on events and public speaking.',
   },
   {
     title: 'Executive & Operations Leadership',
-    body: 'Org building, KPI/OKR management, P&L and budget ownership, scaled delivery frameworks and change management.',
+    body: 'Growing teams and the leaders within them — hiring, coaching, career development and succession — backed by org building, KPI/OKR management, P&L and budget ownership, and scaled delivery frameworks.',
   },
   {
     title: 'AI & Automation',
-    body: 'Bringing AI into real workflows — estimation, resource planning, CRM automation — and analytics-driven decision-making.',
+    body: 'Bringing AI into real workflows — estimation, resource planning, CRM automation — and building MCP tools and integrations that let AI agents work with enterprise systems, guided by analytics-driven decisions.',
   },
   {
     title: 'Technology Transformation',
-    body: 'Broad, hands-on experience across the stack — CDN and web performance at Akamai and Limelight, CRM on HubSpot, integration on iPaaS, and now AI — aligning technology with how the business grows.',
+    body: 'Broad, hands-on experience across the stack — CDN, web performance and security at Akamai and Limelight, CRM on HubSpot, integration on Frends iPaaS, and now AI — aligning technology with how the business grows.',
   },
   {
     title: 'Stakeholder & Programme Management',
@@ -146,7 +146,7 @@ export const expertise = [
   },
 ]
 
-export const tools = ['Frends', 'HubSpot', 'Salesforce', 'Akamai', 'AWS', 'Claude', 'Jira', 'Confluence', 'Productive']
+export const tools = ['Frends', 'HubSpot', 'Salesforce', 'Akamai', 'Azure', 'Claude', 'Jira', 'Confluence', 'Productive']
 
 export const awards = [
   { year: '2024', title: "President's Club Winner", detail: 'Top performer SE, Nordilux FY 2023 — HubSpot' },
