@@ -173,3 +173,22 @@ export const education = [
     grade: 'CGPA 8.91 / 10',
   },
 ]
+
+export const principles = [
+  {
+    title: 'Set the bar high — then help people clear it.',
+    body: 'I hold myself and my teams to high standards, do the work to help people go beyond them, and make sure it gets noticed when they do.',
+  },
+  {
+    title: 'Make feedback easy to give.',
+    body: 'I listen first and make sure I understand the real challenge before we talk about solutions. People share more when it feels safe to.',
+  },
+  {
+    title: "Lean into the conversation you're avoiding.",
+    body: "Progress usually sits on the other side of a difficult conversation. I'd rather have it early, honestly and with respect.",
+  },
+  {
+    title: 'Decide with data, sharpen with instinct.',
+    body: 'I use data and AI to inform decisions, question my emotional first reactions, trust my judgement — and accept that real progress means taking considered risks.',
+  },
+]
