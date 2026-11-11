@@ -6,6 +6,8 @@ export const profile = {
   title: 'Solutions Architect · Presales',
   location: 'Sweden',
   linkedin: 'https://www.linkedin.com/in/rk-prabhu/',
+  booking: 'https://calendar.app.google/6ZxqXb6jMALgmZ1y5',
+  bookingEmbed: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ32SSQ1kNomOXsduhnzkDcoR8xE4cmSgt3Uiww3_QErEpIDj3UA8-FIZfn8ZNnNFCuvSTUH1YW7?gv=true',
   headline: 'I help enterprises connect their systems, their teams and their strategy.',
   intro:
     'Technology, sales & operations leader with 13+ years across SaaS, CRM, iPaaS, CDN and cloud — designing enterprise architectures, leading high-performing presales teams and turning digital transformation goals into measurable business outcomes.',
