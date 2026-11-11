@@ -130,7 +130,7 @@ function Hero() {
         <Reveal delay={0.2} className="mx-auto w-full max-w-sm">
           <div className="relative">
             <div aria-hidden className="absolute -inset-3 rounded-[2rem] border border-accent/30" />
-            <img src="./profile.png" alt={`Portrait of ${profile.fullName}`} className="relative aspect-[4/5] w-full rounded-[1.6rem] object-cover shadow-2xl shadow-black/10" />
+            <img src="./profile.jpg" alt={`Portrait of ${profile.fullName}`} className="relative aspect-[4/5] w-full rounded-[1.6rem] object-cover shadow-2xl shadow-black/10" />
           </div>
         </Reveal>
       </div>
