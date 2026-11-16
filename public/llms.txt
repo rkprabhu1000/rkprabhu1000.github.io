@@ -1,0 +1,47 @@
+# RK Prabhu
+
+> Radhakrishna (RK) Prabhu is a technology, sales and operations leader based in Sweden with 13+ years across SaaS, CRM, iPaaS, CDN and cloud. RK is currently Solutions Architect – Presales at Frends, advising CIOs and enterprise architects on integration strategy and AI/MCP-led automation.
+
+RK designs enterprise architectures, leads high-performing presales teams and turns digital transformation goals into measurable business outcomes. RK's career runs from software engineering (Infosys) through solutions architecture for Fortune 500 clients (Akamai, Limelight Networks) to presales team leadership (HubSpot) and running a CRM strategy and architecture team with P&L responsibility (Invise).
+
+- Website: https://rkprabhu1000.github.io/
+- LinkedIn: https://www.linkedin.com/in/rk-prabhu/
+- Book a 30-minute call: https://calendar.app.google/6ZxqXb6jMALgmZ1y5
+
+## Highlights
+
+- €1M+ ARR growth delivered through enterprise solution design and value-led selling
+- Architected solutions for 20+ Fortune 500 clients; led a $1M+ web and media delivery programme across North America (Akamai)
+- Built and led a 10-person CRM strategy and architecture team (Invise)
+- President's Club winner and top-performing Solutions Engineer in Nordilux (HubSpot, FY 2022 and FY 2023)
+- Titan Award for the largest deal signed in APAC, FY 2020 (Limelight Networks)
+
+## Experience
+
+- Frends (Sweden) — Solutions Architect – Presales, Feb 2026 – present. Solution architecture in enterprise sales cycles; API-led and event-driven integration architectures on Frends iPaaS; AI- and MCP-led integration solutions that expose enterprise processes as tools AI agents can call securely; integration blueprints, demos and proof-of-value; partner enablement, marketing events and public speaking.
+- Invise (Sweden) — Head of CRM & Tech Team, Aug 2024 – Feb 2026 (previously Principal Solutions Engineer). Built and led a 10-member team: hiring, coaching, career development and succession planning; budget and P&L oversight; AI-driven estimation and resource planning; operational KPIs across CSAT, utilisation and delivery.
+- HubSpot (Ireland) — Principal Solutions Engineer, Team Lead, Jul 2021 – Jul 2024 (previously Senior Solutions Engineer II, Senior Solutions Engineer). Team lead for 7 solutions engineers while carrying a full individual quota; enterprise CRM architecture; AI-driven CRM automation; enablement programmes.
+- Limelight Networks (India) — Solutions Engineer, May 2019 – Aug 2020. Enterprise streaming and CDN clients across APAC; capacity-planning analytics; network optimisation features.
+- Akamai Technologies (India) — Solutions Architect II, Nov 2015 – Apr 2019 (previously Solutions Architect). Web performance and security solutions for 20+ Fortune 500 clients.
+- Infosys (India) — Senior Systems Engineer, Feb 2013 – Oct 2015. Enterprise software delivery; Best Project Award 2015.
+
+## Expertise
+
+- Solutions & architecture design: solution design, enterprise architecture and architecture reviews connecting cloud, SaaS, ERP and legacy systems
+- Presales & go-to-market: enterprise account strategy, technical discovery, demos, proof-of-value, partner enablement, marketing events and public speaking
+- Executive & operations leadership: growing teams and leaders, hiring, coaching, KPI/OKR management, P&L and budget ownership
+- AI & automation: AI adoption in real workflows, MCP tools and integrations for AI agents, analytics-driven decisions
+- Technology transformation: CDN, web performance and security, CRM on HubSpot, integration on Frends iPaaS, AI
+- Platforms & tools: Frends, HubSpot, Salesforce, Akamai, Azure, Claude, Jira, Confluence, Productive
+
+## Guiding principles
+
+1. Set the bar high – then help people clear it.
+2. Make feedback easy to give: listen first, understand the real challenge, then focus on solutions.
+3. Lean into the conversation you're avoiding.
+4. Decide with data, sharpen with instinct.
+
+## Education
+
+- Master of Engineering, Information & Network Security — University of Limerick, Ireland (2020–2021)
+- Bachelor of Engineering, Computer Science — NMAM Institute of Technology, Nitte, India (2008–2012)

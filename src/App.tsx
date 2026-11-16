@@ -20,7 +20,16 @@ function LinkedInIcon({ className = '' }: { className?: string }) {
   )
 }
 
-function Reveal({ children, delay = 0, className = '' }: { children: ReactNode; delay?: number; className?: string }) {
+const IS_SERVER = typeof window === 'undefined'
+
+// At build time (pre-rendering) sections render as plain, fully visible HTML so crawlers and
+// no-JS visitors get all the content; in the browser they fade in as before.
+function Reveal(props: { children: ReactNode; delay?: number; className?: string }) {
+  if (IS_SERVER) return <div className={props.className}>{props.children}</div>
+  return <ClientReveal {...props} />
+}
+
+function ClientReveal({ children, delay = 0, className = '' }: { children: ReactNode; delay?: number; className?: string }) {
   const reduce = useReducedMotion()
   return (
     <motion.div
@@ -45,7 +54,7 @@ function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) 
 }
 
 function useTheme() {
-  const [dark, setDark] = useState(() => document.documentElement.classList.contains('dark'))
+  const [dark, setDark] = useState(() => !IS_SERVER && document.documentElement.classList.contains('dark'))
   useEffect(() => {
     document.documentElement.classList.toggle('dark', dark)
     try { localStorage.setItem('theme', dark ? 'dark' : 'light') } catch { /* storage unavailable */ }
